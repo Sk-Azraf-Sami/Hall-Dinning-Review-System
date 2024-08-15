@@ -26,7 +26,12 @@ public class ConnectionProvider {
     }
     public static void main(String args[])
     {
-        JOptionPane.showMessageDialog(null,"Connected");
+        Connection con = getCon();
+        if(con != null) {
+            JOptionPane.showMessageDialog(null, "Connected");
+        } else {
+            JOptionPane.showMessageDialog(null, "Connection failed");
+        }
     }
        
 }
