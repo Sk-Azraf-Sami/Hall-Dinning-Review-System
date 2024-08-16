@@ -279,7 +279,7 @@ public class BMICalculator extends javax.swing.JFrame {
                 btnCalcualteActionPerformed(evt);
             }
         });
-        jPanel1.add(btnCalcualte, new org.netbeans.lib.awtextra.AbsoluteConstraints(420, 240, 150, 51));
+        jPanel1.add(btnCalcualte, new org.netbeans.lib.awtextra.AbsoluteConstraints(490, 240, 150, 51));
 
         btnClear.setBackground(new java.awt.Color(255, 51, 51));
         btnClear.setText("Clear");
@@ -288,7 +288,7 @@ public class BMICalculator extends javax.swing.JFrame {
                 btnClearActionPerformed(evt);
             }
         });
-        jPanel1.add(btnClear, new org.netbeans.lib.awtextra.AbsoluteConstraints(580, 240, 150, 51));
+        jPanel1.add(btnClear, new org.netbeans.lib.awtextra.AbsoluteConstraints(650, 240, 150, 51));
 
         textInches.setFont(new java.awt.Font("Liberation Sans", 1, 18)); // NOI18N
         textInches.setBorder(javax.swing.BorderFactory.createMatteBorder(2, 2, 2, 2, new java.awt.Color(0, 0, 0)));
@@ -297,11 +297,11 @@ public class BMICalculator extends javax.swing.JFrame {
                 textInchesKeyReleased(evt);
             }
         });
-        jPanel1.add(textInches, new org.netbeans.lib.awtextra.AbsoluteConstraints(350, 190, 80, -1));
+        jPanel1.add(textInches, new org.netbeans.lib.awtextra.AbsoluteConstraints(440, 190, 80, -1));
 
         jLabel2.setFont(new java.awt.Font("Liberation Sans", 1, 18)); // NOI18N
         jLabel2.setText("Inches");
-        jPanel1.add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(360, 160, -1, -1));
+        jPanel1.add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(450, 160, -1, -1));
 
         textFeet.setFont(new java.awt.Font("Liberation Sans", 1, 18)); // NOI18N
         textFeet.setBorder(javax.swing.BorderFactory.createMatteBorder(2, 2, 2, 2, new java.awt.Color(0, 0, 0)));
@@ -315,15 +315,15 @@ public class BMICalculator extends javax.swing.JFrame {
                 textFeetKeyReleased(evt);
             }
         });
-        jPanel1.add(textFeet, new org.netbeans.lib.awtextra.AbsoluteConstraints(350, 110, 80, -1));
+        jPanel1.add(textFeet, new org.netbeans.lib.awtextra.AbsoluteConstraints(440, 110, 80, -1));
 
         jLabel3.setBackground(new java.awt.Color(0, 0, 0));
         jLabel3.setFont(new java.awt.Font("Liberation Sans", 1, 18)); // NOI18N
         jLabel3.setText("Feets");
-        jPanel1.add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(360, 80, -1, -1));
+        jPanel1.add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(450, 80, -1, -1));
 
         jLabel5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/ExtraIcon/BMI-images.png"))); // NOI18N
-        jPanel1.add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(500, 90, 120, -1));
+        jPanel1.add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(570, 90, 120, -1));
 
         textkgs.setFont(new java.awt.Font("Liberation Sans", 1, 18)); // NOI18N
         textkgs.setBorder(javax.swing.BorderFactory.createMatteBorder(2, 2, 2, 2, new java.awt.Color(0, 0, 0)));
@@ -332,13 +332,13 @@ public class BMICalculator extends javax.swing.JFrame {
                 textkgsKeyReleased(evt);
             }
         });
-        jPanel1.add(textkgs, new org.netbeans.lib.awtextra.AbsoluteConstraints(660, 130, 70, -1));
+        jPanel1.add(textkgs, new org.netbeans.lib.awtextra.AbsoluteConstraints(720, 140, 70, -1));
 
         jLabel6.setFont(new java.awt.Font("Liberation Sans", 1, 18)); // NOI18N
         jLabel6.setText("Kgs.");
-        jPanel1.add(jLabel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(680, 100, -1, -1));
+        jPanel1.add(jLabel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(730, 110, -1, -1));
 
-        jLabel7.setIcon(new javax.swing.ImageIcon(getClass().getResource("/ExtraIcon/BMI_BODY_ILLUSTRATION.png"))); // NOI18N
+        jLabel7.setIcon(new javax.swing.ImageIcon(getClass().getResource("/ExtraIcon/new_BMI_BODY_ILLUSTRATION .png"))); // NOI18N
         jPanel1.add(jLabel7, new org.netbeans.lib.awtextra.AbsoluteConstraints(250, 310, 690, 350));
 
         tt2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/ExtraIcon/donald_Trump.png"))); // NOI18N
@@ -348,16 +348,16 @@ public class BMICalculator extends javax.swing.JFrame {
         jPanel1.add(tt1, new org.netbeans.lib.awtextra.AbsoluteConstraints(270, 670, -1, -1));
 
         tt3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/ExtraIcon/donald_Trump.png"))); // NOI18N
-        jPanel1.add(tt3, new org.netbeans.lib.awtextra.AbsoluteConstraints(500, 680, -1, -1));
+        jPanel1.add(tt3, new org.netbeans.lib.awtextra.AbsoluteConstraints(500, 670, -1, -1));
 
         tt4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/ExtraIcon/donald_Trump.png"))); // NOI18N
-        jPanel1.add(tt4, new org.netbeans.lib.awtextra.AbsoluteConstraints(620, 680, -1, -1));
+        jPanel1.add(tt4, new org.netbeans.lib.awtextra.AbsoluteConstraints(610, 670, -1, -1));
 
         tt5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/ExtraIcon/donald_Trump.png"))); // NOI18N
-        jPanel1.add(tt5, new org.netbeans.lib.awtextra.AbsoluteConstraints(720, 680, -1, -1));
+        jPanel1.add(tt5, new org.netbeans.lib.awtextra.AbsoluteConstraints(730, 670, -1, -1));
 
         tt6.setIcon(new javax.swing.ImageIcon(getClass().getResource("/ExtraIcon/donald_Trump.png"))); // NOI18N
-        jPanel1.add(tt6, new org.netbeans.lib.awtextra.AbsoluteConstraints(840, 690, -1, -1));
+        jPanel1.add(tt6, new org.netbeans.lib.awtextra.AbsoluteConstraints(840, 670, -1, -1));
 
         textLabel.setFont(new java.awt.Font("Liberation Sans", 1, 24)); // NOI18N
         textLabel.setForeground(new java.awt.Color(255, 0, 0));
