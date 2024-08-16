@@ -240,6 +240,7 @@ public class BMICalculator extends javax.swing.JFrame {
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setBackground(new java.awt.Color(102, 102, 255));
         setUndecorated(true);
+        setPreferredSize(new java.awt.Dimension(956, 800));
 
         jPanel1.setBackground(new java.awt.Color(255, 255, 255));
         jPanel1.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
@@ -269,7 +270,7 @@ public class BMICalculator extends javax.swing.JFrame {
 
         jPanel3.add(jPanel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 150, 50));
 
-        jPanel1.add(jPanel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 240, 920));
+        jPanel1.add(jPanel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 240, 790));
 
         btnCalcualte.setBackground(new java.awt.Color(255, 51, 51));
         btnCalcualte.setText("Calculate");
@@ -278,7 +279,7 @@ public class BMICalculator extends javax.swing.JFrame {
                 btnCalcualteActionPerformed(evt);
             }
         });
-        jPanel1.add(btnCalcualte, new org.netbeans.lib.awtextra.AbsoluteConstraints(340, 360, 150, 51));
+        jPanel1.add(btnCalcualte, new org.netbeans.lib.awtextra.AbsoluteConstraints(420, 240, 150, 51));
 
         btnClear.setBackground(new java.awt.Color(255, 51, 51));
         btnClear.setText("Clear");
@@ -287,7 +288,7 @@ public class BMICalculator extends javax.swing.JFrame {
                 btnClearActionPerformed(evt);
             }
         });
-        jPanel1.add(btnClear, new org.netbeans.lib.awtextra.AbsoluteConstraints(670, 360, 150, 51));
+        jPanel1.add(btnClear, new org.netbeans.lib.awtextra.AbsoluteConstraints(580, 240, 150, 51));
 
         textInches.setFont(new java.awt.Font("Liberation Sans", 1, 18)); // NOI18N
         textInches.setBorder(javax.swing.BorderFactory.createMatteBorder(2, 2, 2, 2, new java.awt.Color(0, 0, 0)));
@@ -296,11 +297,11 @@ public class BMICalculator extends javax.swing.JFrame {
                 textInchesKeyReleased(evt);
             }
         });
-        jPanel1.add(textInches, new org.netbeans.lib.awtextra.AbsoluteConstraints(370, 280, 80, -1));
+        jPanel1.add(textInches, new org.netbeans.lib.awtextra.AbsoluteConstraints(350, 190, 80, -1));
 
         jLabel2.setFont(new java.awt.Font("Liberation Sans", 1, 18)); // NOI18N
         jLabel2.setText("Inches");
-        jPanel1.add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(370, 230, -1, -1));
+        jPanel1.add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(360, 160, -1, -1));
 
         textFeet.setFont(new java.awt.Font("Liberation Sans", 1, 18)); // NOI18N
         textFeet.setBorder(javax.swing.BorderFactory.createMatteBorder(2, 2, 2, 2, new java.awt.Color(0, 0, 0)));
@@ -314,15 +315,15 @@ public class BMICalculator extends javax.swing.JFrame {
                 textFeetKeyReleased(evt);
             }
         });
-        jPanel1.add(textFeet, new org.netbeans.lib.awtextra.AbsoluteConstraints(370, 170, 80, -1));
+        jPanel1.add(textFeet, new org.netbeans.lib.awtextra.AbsoluteConstraints(350, 110, 80, -1));
 
         jLabel3.setBackground(new java.awt.Color(0, 0, 0));
         jLabel3.setFont(new java.awt.Font("Liberation Sans", 1, 18)); // NOI18N
         jLabel3.setText("Feets");
-        jPanel1.add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(370, 120, -1, -1));
+        jPanel1.add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(360, 80, -1, -1));
 
         jLabel5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/ExtraIcon/BMI-images.png"))); // NOI18N
-        jPanel1.add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(530, 170, 120, -1));
+        jPanel1.add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(500, 90, 120, -1));
 
         textkgs.setFont(new java.awt.Font("Liberation Sans", 1, 18)); // NOI18N
         textkgs.setBorder(javax.swing.BorderFactory.createMatteBorder(2, 2, 2, 2, new java.awt.Color(0, 0, 0)));
@@ -331,32 +332,32 @@ public class BMICalculator extends javax.swing.JFrame {
                 textkgsKeyReleased(evt);
             }
         });
-        jPanel1.add(textkgs, new org.netbeans.lib.awtextra.AbsoluteConstraints(730, 170, 70, -1));
+        jPanel1.add(textkgs, new org.netbeans.lib.awtextra.AbsoluteConstraints(660, 130, 70, -1));
 
         jLabel6.setFont(new java.awt.Font("Liberation Sans", 1, 18)); // NOI18N
         jLabel6.setText("Kgs.");
-        jPanel1.add(jLabel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(740, 120, -1, -1));
+        jPanel1.add(jLabel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(680, 100, -1, -1));
 
         jLabel7.setIcon(new javax.swing.ImageIcon(getClass().getResource("/ExtraIcon/BMI_BODY_ILLUSTRATION.png"))); // NOI18N
-        jPanel1.add(jLabel7, new org.netbeans.lib.awtextra.AbsoluteConstraints(240, 480, -1, -1));
+        jPanel1.add(jLabel7, new org.netbeans.lib.awtextra.AbsoluteConstraints(250, 310, 690, 350));
 
         tt2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/ExtraIcon/donald_Trump.png"))); // NOI18N
-        jPanel1.add(tt2, new org.netbeans.lib.awtextra.AbsoluteConstraints(390, 844, -1, -1));
+        jPanel1.add(tt2, new org.netbeans.lib.awtextra.AbsoluteConstraints(380, 670, -1, -1));
 
         tt1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/ExtraIcon/donald_Trump.png"))); // NOI18N
-        jPanel1.add(tt1, new org.netbeans.lib.awtextra.AbsoluteConstraints(278, 844, -1, -1));
+        jPanel1.add(tt1, new org.netbeans.lib.awtextra.AbsoluteConstraints(270, 670, -1, -1));
 
         tt3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/ExtraIcon/donald_Trump.png"))); // NOI18N
-        jPanel1.add(tt3, new org.netbeans.lib.awtextra.AbsoluteConstraints(508, 844, -1, -1));
+        jPanel1.add(tt3, new org.netbeans.lib.awtextra.AbsoluteConstraints(500, 680, -1, -1));
 
         tt4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/ExtraIcon/donald_Trump.png"))); // NOI18N
-        jPanel1.add(tt4, new org.netbeans.lib.awtextra.AbsoluteConstraints(620, 844, -1, -1));
+        jPanel1.add(tt4, new org.netbeans.lib.awtextra.AbsoluteConstraints(620, 680, -1, -1));
 
         tt5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/ExtraIcon/donald_Trump.png"))); // NOI18N
-        jPanel1.add(tt5, new org.netbeans.lib.awtextra.AbsoluteConstraints(732, 844, -1, -1));
+        jPanel1.add(tt5, new org.netbeans.lib.awtextra.AbsoluteConstraints(720, 680, -1, -1));
 
         tt6.setIcon(new javax.swing.ImageIcon(getClass().getResource("/ExtraIcon/donald_Trump.png"))); // NOI18N
-        jPanel1.add(tt6, new org.netbeans.lib.awtextra.AbsoluteConstraints(844, 844, -1, -1));
+        jPanel1.add(tt6, new org.netbeans.lib.awtextra.AbsoluteConstraints(840, 690, -1, -1));
 
         textLabel.setFont(new java.awt.Font("Liberation Sans", 1, 24)); // NOI18N
         textLabel.setForeground(new java.awt.Color(255, 0, 0));
@@ -368,23 +369,17 @@ public class BMICalculator extends javax.swing.JFrame {
                 jLabel4MouseClicked(evt);
             }
         });
-        jPanel1.add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(910, 0, -1, -1));
+        jPanel1.add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(930, 0, -1, -1));
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
-                .addContainerGap()
-                .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                .addContainerGap())
+            .addComponent(jPanel1, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, 972, Short.MAX_VALUE)
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(layout.createSequentialGroup()
-                .addContainerGap()
-                .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+            .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, 786, javax.swing.GroupLayout.PREFERRED_SIZE)
         );
 
         pack();
