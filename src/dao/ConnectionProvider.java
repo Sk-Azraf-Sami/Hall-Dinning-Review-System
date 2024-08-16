@@ -18,7 +18,7 @@ public class ConnectionProvider {
             Class.forName("com.mysql.cj.jdbc.Driver");
             Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/dms","root","password"); 
             return con; 
-        }
+        } 
         catch(Exception e)
         {
             return null;
