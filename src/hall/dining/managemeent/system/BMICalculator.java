@@ -289,7 +289,7 @@ public class BMICalculator extends javax.swing.JFrame {
         });
         jPanel1.add(btnClear, new org.netbeans.lib.awtextra.AbsoluteConstraints(670, 360, 150, 51));
 
-        textInches.setFont(new java.awt.Font("Liberation Sans", 1, 24)); // NOI18N
+        textInches.setFont(new java.awt.Font("Liberation Sans", 1, 18)); // NOI18N
         textInches.setBorder(javax.swing.BorderFactory.createMatteBorder(2, 2, 2, 2, new java.awt.Color(0, 0, 0)));
         textInches.addKeyListener(new java.awt.event.KeyAdapter() {
             public void keyReleased(java.awt.event.KeyEvent evt) {
@@ -298,12 +298,17 @@ public class BMICalculator extends javax.swing.JFrame {
         });
         jPanel1.add(textInches, new org.netbeans.lib.awtextra.AbsoluteConstraints(370, 280, 80, -1));
 
-        jLabel2.setFont(new java.awt.Font("Liberation Sans", 1, 24)); // NOI18N
+        jLabel2.setFont(new java.awt.Font("Liberation Sans", 1, 18)); // NOI18N
         jLabel2.setText("Inches");
         jPanel1.add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(370, 230, -1, -1));
 
-        textFeet.setFont(new java.awt.Font("Liberation Sans", 1, 24)); // NOI18N
+        textFeet.setFont(new java.awt.Font("Liberation Sans", 1, 18)); // NOI18N
         textFeet.setBorder(javax.swing.BorderFactory.createMatteBorder(2, 2, 2, 2, new java.awt.Color(0, 0, 0)));
+        textFeet.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                textFeetActionPerformed(evt);
+            }
+        });
         textFeet.addKeyListener(new java.awt.event.KeyAdapter() {
             public void keyReleased(java.awt.event.KeyEvent evt) {
                 textFeetKeyReleased(evt);
@@ -312,14 +317,14 @@ public class BMICalculator extends javax.swing.JFrame {
         jPanel1.add(textFeet, new org.netbeans.lib.awtextra.AbsoluteConstraints(370, 170, 80, -1));
 
         jLabel3.setBackground(new java.awt.Color(0, 0, 0));
-        jLabel3.setFont(new java.awt.Font("Liberation Sans", 1, 24)); // NOI18N
+        jLabel3.setFont(new java.awt.Font("Liberation Sans", 1, 18)); // NOI18N
         jLabel3.setText("Feets");
         jPanel1.add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(370, 120, -1, -1));
 
         jLabel5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/ExtraIcon/BMI-images.png"))); // NOI18N
         jPanel1.add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(530, 170, 120, -1));
 
-        textkgs.setFont(new java.awt.Font("Liberation Sans", 1, 24)); // NOI18N
+        textkgs.setFont(new java.awt.Font("Liberation Sans", 1, 18)); // NOI18N
         textkgs.setBorder(javax.swing.BorderFactory.createMatteBorder(2, 2, 2, 2, new java.awt.Color(0, 0, 0)));
         textkgs.addKeyListener(new java.awt.event.KeyAdapter() {
             public void keyReleased(java.awt.event.KeyEvent evt) {
@@ -328,7 +333,7 @@ public class BMICalculator extends javax.swing.JFrame {
         });
         jPanel1.add(textkgs, new org.netbeans.lib.awtextra.AbsoluteConstraints(730, 170, 70, -1));
 
-        jLabel6.setFont(new java.awt.Font("Liberation Sans", 1, 24)); // NOI18N
+        jLabel6.setFont(new java.awt.Font("Liberation Sans", 1, 18)); // NOI18N
         jLabel6.setText("Kgs.");
         jPanel1.add(jLabel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(740, 120, -1, -1));
 
@@ -369,11 +374,17 @@ public class BMICalculator extends javax.swing.JFrame {
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
+                .addContainerGap()
+                .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addContainerGap())
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+            .addGroup(layout.createSequentialGroup()
+                .addContainerGap()
+                .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
 
         pack();
@@ -446,6 +457,10 @@ public class BMICalculator extends javax.swing.JFrame {
             System.exit(0);
         }
     }//GEN-LAST:event_jLabel4MouseClicked
+
+    private void textFeetActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_textFeetActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_textFeetActionPerformed
 
     /**
      * @param args the command line arguments
