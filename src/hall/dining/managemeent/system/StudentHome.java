@@ -207,7 +207,7 @@ public class StudentHome extends javax.swing.JFrame {
         jLabel3.setFont(new java.awt.Font("Liberation Sans", 1, 20)); // NOI18N
         jLabel3.setForeground(new java.awt.Color(255, 255, 255));
         jLabel3.setText(" Student Point ");
-        jPanel1.add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(1170, 20, -1, -1));
+        jPanel1.add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(1110, 20, -1, -1));
 
         jLabel4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/adminIcon/icons8-student-male-50(1).png"))); // NOI18N
         jLabel4.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -215,7 +215,7 @@ public class StudentHome extends javax.swing.JFrame {
                 jLabel4MouseClicked(evt);
             }
         });
-        jPanel1.add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(1120, 10, 56, -1));
+        jPanel1.add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(1050, 10, 56, -1));
 
         jLabel13.setIcon(new javax.swing.ImageIcon(getClass().getResource("/ExtraIcon/icons8-cross-30.png"))); // NOI18N
         jLabel13.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -223,9 +223,9 @@ public class StudentHome extends javax.swing.JFrame {
                 jLabel13MouseClicked(evt);
             }
         });
-        jPanel1.add(jLabel13, new org.netbeans.lib.awtextra.AbsoluteConstraints(1350, 0, -1, -1));
+        jPanel1.add(jLabel13, new org.netbeans.lib.awtextra.AbsoluteConstraints(1280, 0, -1, 30));
 
-        getContentPane().add(jPanel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 1380, 70));
+        getContentPane().add(jPanel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 1310, 70));
 
         jPanel4.setBackground(new java.awt.Color(51, 51, 51));
 
@@ -521,22 +521,22 @@ public class StudentHome extends javax.swing.JFrame {
         textAdminNotice.setBorder(javax.swing.BorderFactory.createMatteBorder(5, 5, 5, 5, new java.awt.Color(0, 0, 0)));
         jScrollPane1.setViewportView(textAdminNotice);
 
-        jPanel11.add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(90, 260, 361, 398));
+        jPanel11.add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 260, 361, 398));
 
         label1.setFont(new java.awt.Font("Liberation Mono", 3, 14)); // NOI18N
         label1.setForeground(new java.awt.Color(0, 0, 0));
         label1.setText("Last Updated On: ");
-        jPanel11.add(label1, new org.netbeans.lib.awtextra.AbsoluteConstraints(90, 230, -1, 20));
+        jPanel11.add(label1, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 230, -1, 20));
 
         dateTimeLabel.setFont(new java.awt.Font("Liberation Mono", 3, 14)); // NOI18N
         dateTimeLabel.setForeground(new java.awt.Color(0, 0, 0));
         dateTimeLabel.setText("No information is available");
-        jPanel11.add(dateTimeLabel, new org.netbeans.lib.awtextra.AbsoluteConstraints(230, 230, -1, -1));
+        jPanel11.add(dateTimeLabel, new org.netbeans.lib.awtextra.AbsoluteConstraints(200, 230, -1, -1));
 
         jLabel14.setFont(new java.awt.Font("Liberation Sans", 1, 15)); // NOI18N
         jLabel14.setIcon(new javax.swing.ImageIcon(getClass().getResource("/ExtraIcon/red-drawing-pin.jpg"))); // NOI18N
         jLabel14.setText("Notice From Hall Administration");
-        jPanel11.add(jLabel14, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 190, -1, -1));
+        jPanel11.add(jLabel14, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 190, -1, -1));
 
         textManagerNotice.setEditable(false);
         textManagerNotice.setColumns(20);
@@ -545,22 +545,22 @@ public class StudentHome extends javax.swing.JFrame {
         textManagerNotice.setBorder(javax.swing.BorderFactory.createMatteBorder(5, 5, 5, 5, new java.awt.Color(0, 0, 0)));
         jScrollPane2.setViewportView(textManagerNotice);
 
-        jPanel11.add(jScrollPane2, new org.netbeans.lib.awtextra.AbsoluteConstraints(598, 264, 361, 398));
+        jPanel11.add(jScrollPane2, new org.netbeans.lib.awtextra.AbsoluteConstraints(520, 260, 361, 398));
 
         label2.setFont(new java.awt.Font("Liberation Mono", 3, 14)); // NOI18N
         label2.setForeground(new java.awt.Color(0, 0, 0));
         label2.setText("Last Updated On: ");
-        jPanel11.add(label2, new org.netbeans.lib.awtextra.AbsoluteConstraints(597, 233, -1, -1));
+        jPanel11.add(label2, new org.netbeans.lib.awtextra.AbsoluteConstraints(520, 230, -1, -1));
 
         dateTimeLabel2.setFont(new java.awt.Font("Liberation Mono", 3, 14)); // NOI18N
         dateTimeLabel2.setForeground(new java.awt.Color(0, 0, 0));
         dateTimeLabel2.setText("No information is available");
-        jPanel11.add(dateTimeLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(739, 233, -1, -1));
+        jPanel11.add(dateTimeLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(660, 230, -1, -1));
 
         jLabel15.setFont(new java.awt.Font("Liberation Sans", 1, 15)); // NOI18N
         jLabel15.setIcon(new javax.swing.ImageIcon(getClass().getResource("/ExtraIcon/red-drawing-pin.jpg"))); // NOI18N
         jLabel15.setText("Notice From Dinning Manager");
-        jPanel11.add(jLabel15, new org.netbeans.lib.awtextra.AbsoluteConstraints(587, 192, -1, -1));
+        jPanel11.add(jLabel15, new org.netbeans.lib.awtextra.AbsoluteConstraints(510, 190, -1, -1));
 
         getContentPane().add(jPanel11, new org.netbeans.lib.awtextra.AbsoluteConstraints(340, 70, 1040, 700));
 
