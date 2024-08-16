@@ -78,7 +78,11 @@ public class DeleteAccounts extends javax.swing.JFrame {
         jLabel3 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setLocationByPlatform(true);
+        setMinimumSize(new java.awt.Dimension(1200, 700));
         setUndecorated(true);
+        setPreferredSize(new java.awt.Dimension(1200, 700));
+        setResizable(false);
         addComponentListener(new java.awt.event.ComponentAdapter() {
             public void componentShown(java.awt.event.ComponentEvent evt) {
                 formComponentShown(evt);
@@ -153,7 +157,7 @@ public class DeleteAccounts extends javax.swing.JFrame {
             jTable1.getColumnModel().getColumn(4).setHeaderValue("Boarder");
         }
 
-        jPanel2.add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 140, 1137, -1));
+        jPanel2.add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 140, 1137, 410));
 
         jLabel2.setFont(new java.awt.Font("Liberation Sans", 1, 24)); // NOI18N
         jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/search.png"))); // NOI18N
@@ -171,9 +175,9 @@ public class DeleteAccounts extends javax.swing.JFrame {
         jLabel3.setFont(new java.awt.Font("Liberation Sans", 3, 20)); // NOI18N
         jLabel3.setForeground(new java.awt.Color(255, 0, 0));
         jLabel3.setText("* Click on Row to Delete Account");
-        jPanel2.add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(441, 613, -1, -1));
+        jPanel2.add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(440, 570, -1, -1));
 
-        getContentPane().add(jPanel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 90, 1200, 680));
+        getContentPane().add(jPanel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 90, 1200, 620));
 
         pack();
         setLocationRelativeTo(null);
