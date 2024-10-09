@@ -107,6 +107,52 @@ java -cp "../../jar-files/mysql-connector-java-8.0.30.jar"  dao.tables
 
 ## [Installation](#installation)
 
+### 1. Install MySQL
+   First, install and set up MySQL Server:
+   ```bash
+   sudo apt install mysql-server
+   sudo systemctl start mysql.service
+   sudo mysql
+   ```
+   Set the root password:
+   ```bash
+   sudo mysql -u root -p
+   ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'password';
+   exit
+   ```
+
+### 2. Create the Database
+   Access MySQL again to create and configure the database:
+   ```bash
+   sudo mysql -u root -p
+   > Enter Password: password
+   ```
+   Now, create the database `dms` and use it:
+   ```sql
+   > create database dms;
+   > use dms;
+   > show tables;
+   ```
+
+### 3. Project Setup
+
+1. Install `Netbeans IDE` from [here](https://netbeans.apache.org/front/main/index.html).
+   
+2. Clone the project repository and open it in NetBeans:
+   ```bash
+   git clone https://github.com/Sk-Azraf-Sami/Hall-Dinning-Review-System.git
+   ```
+      1. Open the project in NetBeans.
+      2. Navigate to `Source Packages -> dao -> tables.java`.
+      3. Run the file by pressing `Shift+F6`.
+
+### 4. Verify Database Tables
+   After running the application, go back to MySQL and verify the created tables:
+   ```sql
+   > show tables;
+   ```
+
+
 ##  [How to Run](#how-to-run)
 
 
