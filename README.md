@@ -122,6 +122,24 @@
 
 ##  [How to Run](#how-to-run)
 
+1. Open a terminal and navigate to the `Hall-Dinning-Review-System` project directory:
+   ```bash
+   cd Hall-Dinning-Review-System
+   ```
+
+2. Go to the `dist` folder:
+   ```bash
+   cd dist
+   ```
+
+3. Run the application using the following command:
+   ```bash
+   java -jar "Review_on_Hall_Dining.jar"
+   ```
+
+### Additional Notes
+- If you encounter any issues during installation, please check the repository's [issues section](https://github.com/Sk-Azraf-Sami/Hall-Dinning-Review-System/issues) for solutions or to report a problem.
+- Be sure to check for updates regularly to keep this desktop application running smoothly.
 
 ## [Documentation](#documentation)
 
