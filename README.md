@@ -56,7 +56,7 @@ java -cp "../../jar-files/mysql-connector-java-8.0.30.jar"  dao.tables
 
 ## [Documentation](#documentation)
 
-For detailed information about the Cardio Tracker app, please refer to the [docummentation](https://github.com/Sk-Azraf-Sami/SOS-Paper-Pencil-Game-AI/blob/main/sos-documentation.pdf).
+For detailed information about the 'Hall-Dinning-Review-Desktop-Application', please refer to the [docummentation](Hall-Dining-Review-Java-Project.pdf).
 
 
 ## [Contributing](#contributing)
