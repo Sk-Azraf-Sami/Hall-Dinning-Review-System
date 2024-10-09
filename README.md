@@ -33,6 +33,17 @@ javac -cp "../../jar-files/mysql-connector-java-8.0.30.jar" DbOperations.java
 javac -cp "../../jar-files/mysql-connector-java-8.0.30.jar" tables.java
 java -cp "../../jar-files/mysql-connector-java-8.0.30.jar"  dao.tables
 
+![Version](https://img.shields.io/badge/Version-1.0-blue.svg?style=plastic&logo=appveyor&logoColor=white&color=blueviolet)
+![Platform](https://img.shields.io/badge/Platform-Windows%20%7C%20Linux-blue.svg?style=plastic&logo=windows&logoColor=white&color=green)
+![IDE](https://img.shields.io/badge/IDE-NetBeans-brightgreen.svg?style=plastic&logo=apache-netbeans-ide&logoColor=white&color=yellowgreen)
+[![GitHub contributors](https://img.shields.io/github/contributors-anon/Sk-Azraf-Sami/Hall-Dinning-Review-System?style=plastic&labelColor=&color=blue&logo=)](https://github.com/Sk-Azraf-Sami/Hall-Dinning-Review-System/graphs/contributors)
+[![GitHub last commit (by committer)](https://img.shields.io/github/last-commit/Sk-Azraf-Sami/Hall-Dinning-Review-System?style=plastic&labelColor=&color=blue&logo=)](https://github.com/Sk-Azraf-Sami/Hall-Dinning-Review-System/commits/main)
+[![GitHub language count](https://img.shields.io/github/languages/count/Sk-Azraf-Sami/Hall-Dinning-Review-System?style=plastic&labelColor=&color=blue&logo=)](https://github.com/Sk-Azraf-Sami/Hall-Dinning-Review-System/search?l=python&type=Code)
+![GitHub repo size](https://img.shields.io/github/repo-size/Sk-Azraf-Sami/Hall-Dinning-Review-System?style=plastic)
+![License](https://img.shields.io/badge/License-[MIT]-blue.svg?style=plastic&color=orange&logo=GitHub)
+
+
+
 ## Table of Contents 
 - [Description](#description)
 - [User Interface](#user-interface)
