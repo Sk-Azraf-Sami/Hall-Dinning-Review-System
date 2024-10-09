@@ -58,8 +58,50 @@ java -cp "../../jar-files/mysql-connector-java-8.0.30.jar"  dao.tables
 
 ## [User Interface](#user-interface)
 ![image](https://github.com/user-attachments/assets/4918e977-26bd-4266-85ed-30d1d0e5f4e8)
+
+------------
+
 ![image](https://github.com/user-attachments/assets/3cbd86d4-e62c-4d67-bdf6-76336a852419)
+
+---------------
+
 ![image](https://github.com/user-attachments/assets/12cd1e34-87be-439d-aa7b-f259bd4a65e0)
+
+-------
+
+![image](https://github.com/user-attachments/assets/2b312760-7887-4b63-8f63-e0566cc9776e)
+
+------------------
+
+![image](https://github.com/user-attachments/assets/424fbce2-18d5-406e-8ee4-9b3e21e2717a)
+
+---------------
+
+![image](https://github.com/user-attachments/assets/6c1e04d9-d077-438a-8fae-7bdc442c29c5)
+
+-----------------
+
+![image](https://github.com/user-attachments/assets/484de63e-7389-421d-9b44-905936cd5b53)
+
+----------------
+
+![image](https://github.com/user-attachments/assets/a30d1fd6-b77f-46c4-b673-d2be12b75b2f)
+
+---------------
+
+![image](https://github.com/user-attachments/assets/2e9df894-abb0-4748-95e2-75d3130b9f91)
+
+--------------
+
+![image](https://github.com/user-attachments/assets/15b2ff3a-6313-4adf-b09b-540e4bdb4312)
+
+-----------
+
+![image](https://github.com/user-attachments/assets/982ab7f4-3567-423e-b65d-5e46ef9e1bf8)
+
+-----------
+
+![image](https://github.com/user-attachments/assets/7b177d93-e8fc-4488-a655-9111f22f0d38)
 
 
 
