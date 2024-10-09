@@ -57,6 +57,11 @@ java -cp "../../jar-files/mysql-connector-java-8.0.30.jar"  dao.tables
 “Hall Dining Review” is a desktop app that will help a user to share his experience about hall dining. There is a problem that all hall boarders can’t give feedback to the dining manager. So, it is impossible for dining manager to upgrade or add any item to dining. This app will help both students and dining manager to communicate in an easy way in one platform! Hall administrators also get a summary of student reaction about hall dining…
 
 ## [User Interface](#user-interface)
+![image](https://github.com/user-attachments/assets/4918e977-26bd-4266-85ed-30d1d0e5f4e8)
+![image](https://github.com/user-attachments/assets/3cbd86d4-e62c-4d67-bdf6-76336a852419)
+![image](https://github.com/user-attachments/assets/12cd1e34-87be-439d-aa7b-f259bd4a65e0)
+
+
 
 ## [Installation](#installation)
 
