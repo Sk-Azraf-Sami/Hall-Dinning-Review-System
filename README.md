@@ -24,6 +24,8 @@
 “Hall Dining Review” is a desktop app that will help a user to share his experience about hall dining. There is a problem that all hall boarders can’t give feedback to the dining manager. So, it is impossible for dining manager to upgrade or add any item to dining. This app will help both students and dining manager to communicate in an easy way in one platform! Hall administrators also get a summary of student reaction about hall dining…
 
 ## [User Interface](#user-interface)
+
+
 ![image](https://github.com/user-attachments/assets/4918e977-26bd-4266-85ed-30d1d0e5f4e8)
 
 ------------
@@ -35,6 +37,14 @@
 ![image](https://github.com/user-attachments/assets/12cd1e34-87be-439d-aa7b-f259bd4a65e0)
 
 -------
+
+![chrome-capture-2024-10-11](https://github.com/user-attachments/assets/ece4cb24-5680-403f-95cc-3e1ef8d4703a)
+
+------------
+
+![image](https://github.com/user-attachments/assets/6fba31cf-e9b2-44eb-b48b-e1b874181de5)
+
+--------------
 
 ![image](https://github.com/user-attachments/assets/2b312760-7887-4b63-8f63-e0566cc9776e)
 
