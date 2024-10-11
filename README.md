@@ -46,6 +46,18 @@
 
 --------------
 
+![chrome-capture-2024-10-11 (1)](https://github.com/user-attachments/assets/ea331e25-d4ba-4dbc-b03f-f8b300dd8669)
+
+------------------
+
+![image](https://github.com/user-attachments/assets/7332e44f-6076-4c02-ae8b-19adbc86e3fc)
+
+---------------------
+
+![chrome-capture-2024-10-11 (2)](https://github.com/user-attachments/assets/5fab32c7-55b8-48ef-8bf6-59de57cdeb5a)
+
+----------------
+
 ![image](https://github.com/user-attachments/assets/2b312760-7887-4b63-8f63-e0566cc9776e)
 
 ------------------
